@@ -21,7 +21,8 @@
     "ts-loader": "^3.2.0",
     "typescript": "^2.6.2",
     "zone.js": "^0.8.20",
-    "@swimlane/ngx-datatable": "^11.1.7"
+    "@swimlane/ngx-datatable": "^11.1.7",
+    "bootstrap": "^4.1.1"
   },
   "devDependencies": {
     "webpack-dev-server": "^2.11.0"

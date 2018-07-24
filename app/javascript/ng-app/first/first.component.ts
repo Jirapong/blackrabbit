@@ -18,7 +18,7 @@ export class FirstComponent {
 
   constructor(private userService: UserService, private i18n: I18n) {
     this.greeting = i18n.t('hello');
-    this.userService.all().subscribe((users: any[]) => {
+    this.userService.all().subscribe((users: any) => {
       this.users = users;
     });
     this.userService.find(1).subscribe((user: object) => {

@@ -28,11 +28,11 @@ export class RailsService {
   }
 
   save(attrs) {
-    id = attrs.id;
+    let id = attrs.id;
     if (id) {
-      return update(id, attrs);
+      return this.update(id, attrs);
     } else {
-      return create(attrs);
+      return this.create(attrs);
     }
   }
 }
