@@ -101,13 +101,13 @@ You can enable rails admin by adding `rails_admin_path` variable into your appli
 
 We are using i18n and i18n-js together, which means you can use ruby I18n translation on client side like this javascript code
 
+```
+I18n.t("KEY")
+```
+
 ### install node_modules
 
 1. add node module name into package.json
 2. run `yarn install`
 3. import js file(of installed module) into `app/javascripts/packs/app.js`
 3. import css file(of installed module) into `app/javascripts/app.scss`
-
-```
-I18n.t("KEY")
-```
